@@ -1,0 +1,8 @@
+<!--pages/citys/city.wxml-->
+<scroll-view class='outer'>
+  <input placeholder='请输入选择的城市' type='text' id='selectCity' placeholder-style='color:black' bindinput='getInput' value="{{inputValue}}"></input>
+  
+<view id='findCity' bindtap='getValue'>搜索城市</view>
+
+  
+</scroll-view>

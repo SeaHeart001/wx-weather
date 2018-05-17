@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/citys/citys",
+    "pages/page/page"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0281C6",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "HaoHai小天气",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "selectedColor": "green",
+     "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "天气信息",
+        "iconPath": "src/image/wt.png",
+        "selectedIconPath": "src/image/wt-active.png"
+      },
+      {
+        "pagePath": "pages/citys/citys",
+        "text": "选择城市",
+        "iconPath": "src/image/city.png",
+        "selectedIconPath":"src/image/city-active.png"
+      }
+    ]
+  }
+}

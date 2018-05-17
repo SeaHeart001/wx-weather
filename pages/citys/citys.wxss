@@ -1,0 +1,17 @@
+/* pages/citys/city.wxss */
+#selectCity{
+  height: 30px;
+  width: 700rpx;
+  border: 1px solid silver;
+  border-radius: 2px;
+  margin: 30px auto 40px;
+}
+
+#findCity{
+ text-align: center;
+ background-color: #0281C6;
+ margin:0 10px;
+ opacity: 0.8;
+ padding: 10px 0;
+ color: white;
+}

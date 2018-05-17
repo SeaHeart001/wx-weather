@@ -1,0 +1,20 @@
+<scroll-view scroll-Y class='outer'>
+   <view class='header'>
+    <text>{{md.city}}市\n</text>
+    <text>{{md.newDAY}}\n</text>
+    <text>{{md.newTime}} 更新\n</text>
+  </view>
+  <view class='small-item'>
+    <text class='wendu'>{{md.tmp}}℃ </text>
+    <text class='weather'> {{md.condTxt}}</text>
+  </view>
+  <view class='small-item item'>
+      <text class="index_title">生活指数类型 : {{md.suggest[0].brf}}\n</text>
+  </view>
+  <block>
+    <view class='small-item item' wx:for="{{md.suggest}}" wx:key='*this'>
+      <text class="index_desc">{{item.txt}}</text>
+    </view>
+  </block>
+   
+</scroll-view>

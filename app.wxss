@@ -1,0 +1,9 @@
+.outer{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://sjbz-fd.zol-img.com.cn/t_s320x510c/g5/M00/01/0C/ChMkJlg34q6IVZw9AAPr7Y9EcVAAAYD0gJXLkAAA-wF852.jpg');
+  background-repeat: no-repeat;
+  background-origin: 50% 50%;
+  background-size: 100% 100%;
+  overflow:hidden;
+} 

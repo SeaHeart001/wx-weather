@@ -1,0 +1,30 @@
+ .header{
+  position: relative;
+  left:400rpx;
+  width: 300rpx;
+  font-weight: bolder;
+  padding-top: 10px;
+  text-align: right;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.small-item{
+  position: relative;
+  top: 0;
+  margin: 10px;
+  color: #eee;
+}
+.wendu{
+  font-size: 35px;
+  font-weight: bolder;
+}
+.weather{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.item{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+} 
